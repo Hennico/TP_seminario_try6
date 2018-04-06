@@ -1,4 +1,4 @@
-package OrganizadorDeMetas
+package organizadordetareas
 
 public enum Estado {
 	NoIniciada,
