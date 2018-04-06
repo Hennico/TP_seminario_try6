@@ -1,9 +1,9 @@
 package organizadordetareas
 
 public class Tarea {
-	public String nombre
-	public String descripcion
-	public Estado estado
+	String nombre
+	String descripcion
+	Estado estado
 	
 	private List<CambioEstadoListener> listeners;
 	
@@ -17,4 +17,7 @@ public class Tarea {
 		
 		estado = nuevoEstado;
 	}
+	
+    static constraints = {
+    }
 }

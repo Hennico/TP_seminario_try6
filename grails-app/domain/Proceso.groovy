@@ -1,9 +1,9 @@
 package organizadordetareas
 
 public class Proceso {
-	public String nombre
-	public String descripcion
-	public Estado estado
+	String nombre
+	String descripcion
+	Estado estado
 	
 	public List<PasoProceso> pasos
 	
@@ -11,4 +11,7 @@ public class Proceso {
 		PasoProceso paso = new PasoProceso(tarea, Iterables.getLast(pasos))
 		pasos.add(paso)
 	}
+	
+    static constraints = {
+    }
 }
